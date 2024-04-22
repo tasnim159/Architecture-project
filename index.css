@@ -1,0 +1,263 @@
+header {
+    background-image: url("WhatsApp\ Image\ 2024-03-23\ at\ 12.37.04_b44b0d0f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-style {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.home-style {
+    display: flex;
+    gap: 30px;
+}
+#Brand-arc-style {
+    text-align: center;
+    margin-top: 200px;
+    color: aquamarine;
+    padding-bottom: 150px;
+}
+.button {
+    border: none;
+    border-radius: 4px;
+    background-color: coral;
+    color: aliceblue;
+    padding: 10px;
+}
+.button:hover {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(5, 106, 117);
+    color: #111417;
+    padding: 15px;
+}
+
+/* Quick-List-Container */
+#Quick-List-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 40px 50px;
+    background-color: #03c0d5;
+    padding: 40px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.Quick-list-child-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width:576px) {
+    #header-style {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    #Design-arc-style{
+        text-align: center;
+        
+
+
+    }
+
+
+
+    #Quick-List-Container{
+        display: flex;
+        flex-direction: column-reverse;
+        
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 40px 5px;
+        background-color: #03c0d5;
+        padding: 40px;
+        border: none;
+        border-radius: 10px;
+        
+    }
+    .Quick-list-child-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .Quick-list-child-1 img{
+        height: 200px;
+        width: 400px;
+        border-radius: 7px;
+        transition: transform .2s;
+    }
+    .Quick-list-child-1 img:hover{
+       transform: scale(1.5);
+    }
+    
+    .div-box-shadow{
+        background-color: #468187;
+        padding: 0px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 2px 3px 5px grey;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+    .div-container{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+   
+    
+    #feature-will-enjoy{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 50px;
+    }
+    
+    
+
+    
+}
+
+    
+
+
+#lorem-style{
+    border-left: 3px solid blue;
+padding-left: 15px;
+margin-bottom: 30px;
+
+}
+
+
+
+
+
+
+/* feature will love and enjoy */
+#feature-will-enjoy{
+    display: flex;
+    align-items: start;
+    gap: 50px;
+}
+.div-image{
+    height: 100%;
+    width: 100%;
+}
+.div-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.div-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-box-shadow{
+    background-color: #468187;
+    padding: 0px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px 5px grey;
+}
+
+
+
+/* some-fact-started */
+#some-fact-section {
+    padding-left: 90px;
+
+
+
+}
+
+
+
+
+#Fact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 70px;
+   
+
+}
+.icon-style{
+border: 1px solid coral;
+padding: 30px;
+border-radius: 5px;
+
+
+}
+
+/* some-fact-end */
+.Version-style {
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #468187;
+    color: hsl(180, 10%, 21%);
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px;
+
+}
+
+#Footer-style {
+    background-color: hsl(0, 0%, 13%);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    align-items: first baseline;
+
+}
+
+#link-style a {
+    padding-left: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+/* Footer design */
+#Footer-Design{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    background-color: grey;
+    padding: 20px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 576px) {
+
+    #header-style {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;    
+    }
+
+    #Fact-icon {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: 10px 20px 30px;
+    }
+
+}
